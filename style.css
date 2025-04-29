@@ -1,0 +1,88 @@
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      height: 85%;
+  }
+
+  .camera-interface {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .cabeca {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding: 10px;
+  }
+
+  .botoes {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      padding: 10px;
+      text-align: center;
+      color: white
+  }
+
+  .shutter-button {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: none;
+  }
+
+  .zoom-botao {
+      margin: 0 15px;
+  }
+
+  .foto {
+      background-color: white;
+      display: flex;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      justify-content: space-between;
+  }
+
+  .opa {
+      display: flex;
+      margin-left: 32px;
+      gap: 50px;
+      justify-content: center;
+  }
+
+  .zoom {
+      font-size: x-small
+  }
+
+  .galeria {
+      padding: 10px;
+      background-color: aqua;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-image: url("../CÂMERA/imgens/1.jpg");
+      background-size: cover;
+  }
+
+  .retorno {
+      padding: 10px;
+      background-color: aqua;
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background-image: url("../CÂMERA/imgens/2.png");
+      background-size: cover;
+  }
+
+  .fotobotao {
+      margin-right: 40px;
+  }
