@@ -29,7 +29,7 @@
       width: 100%;
       padding: 10px;
       margin-left: -10px;
-      color: white
+      color:white;
   }
 
   .shutter-button {
@@ -65,7 +65,7 @@
 
   .galeria {
       padding: 10px;
-      background-color: aqua;
+      background-color: rgb(255, 255, 255);
       width: 50px;
       height: 50px;
       border-radius: 50%;
@@ -76,13 +76,13 @@
 
   .retorno {
       padding: 10px;
-      background-color: aqua;
+      background-color: rgb(0, 0, 0);
       width: 15px;
       height: 15px;
       border-radius: 50%;
-      background-image: url("../CÂMERA/imgens/2.png");
+      background-image: url("../CÂMERA/imgens/Girar.png");
       background-size: cover;
-      margin-right: 35px;
+      margin-right: 40px;
   }
 
   .fotobotao {
