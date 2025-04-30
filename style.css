@@ -28,7 +28,7 @@
       justify-content: space-around;
       width: 100%;
       padding: 10px;
-      text-align: center;
+      margin-left: -10px;
       color: white
   }
 
@@ -71,6 +71,7 @@
       border-radius: 50%;
       background-image: url("../CÂMERA/imgens/1.jpg");
       background-size: cover;
+      margin-right: 10px;
   }
 
   .retorno {
@@ -81,6 +82,7 @@
       border-radius: 50%;
       background-image: url("../CÂMERA/imgens/2.png");
       background-size: cover;
+      margin-right: 35px;
   }
 
   .fotobotao {
